@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+main {
+  width: 100%;
+  min-height: 80vh;
+  margin: 0 auto;
+  padding: 32px;
+  border: solid 1p;
+  background-color: #ffffff;
+  color: #1f2937;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+/* Headings */
+main h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+/* Paragraphs */
+main p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #4b5563;
+}
+
+/* Horizontal line */
+main hr {
+  border: none;
+  height: 1px;
+  background-color: #e5e7eb;
+  margin: 24px 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  #root {
+    padding: 12px;
+  }
+
+  main {
+    min-height: auto;
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  main h1 {
+    font-size: 1.5rem;
+  }
+}
